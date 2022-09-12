@@ -8,6 +8,7 @@ import Stu3And1 from './views/Section3/Stu3And1';
 import Stu3And2 from './views/Section3/Stu3And2';
 import Stu3And3 from './views/Section3/Stu3And3';
 import Stu4And1 from './views/Section4/Stu4And1';
+import Stu5And1 from './views/Section5/Stu5And1';
 
 function App() {
   //const [ShowTimer, setShowTimer] = useState(false);
@@ -29,7 +30,12 @@ function App() {
       {/* <Stu3And3 /> */}
 
       {/* 4.useRef 완벽 정리 2# DOM 요소 접근  */}
-      <Stu4And1 />
+      {/* <Stu4And1 /> */}
+
+
+      {/* 5.useContext + Context API  */}
+      <Stu5And1 />
+
 
     </div>
   );
