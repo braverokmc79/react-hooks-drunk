@@ -10,6 +10,8 @@ import Stu4And1 from './views/Section4/Stu4And1';
 import Stu5And1 from './views/Section5/Stu5And1';
 import Stu6And1 from './views/Section6/Stu6And1';
 import Stu6And2 from './views/Section6/Stu6And2';
+import Stu7And1 from './views/Section7/Stu7And1';
+import Stu7And2 from './views/Section7/Stu7And2';
 
 function App() {
   //const [ShowTimer, setShowTimer] = useState(false);
@@ -38,7 +40,11 @@ function App() {
 
       {/* 6.useMemo 제대로 사용하기  */}
       {/* <Stu6And1 /> */}
-      <Stu6And2 />
+      {/* <Stu6And2 /> */}
+
+      {/* 7. useCallback 짱 쉬운 강의  */}
+      {/* <Stu7And1 /> */}
+      <Stu7And2 />
 
 
 
