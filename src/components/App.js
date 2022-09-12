@@ -7,9 +7,10 @@ import { useState } from 'react';
 import Stu3And1 from './views/Section3/Stu3And1';
 import Stu3And2 from './views/Section3/Stu3And2';
 import Stu3And3 from './views/Section3/Stu3And3';
+import Stu4And1 from './views/Section4/Stu4And1';
 
 function App() {
-  const [ShowTimer, setShowTimer] = useState(false);
+  //const [ShowTimer, setShowTimer] = useState(false);
 
   return (
     <div className="App">
@@ -25,8 +26,10 @@ function App() {
       {/* 3.useRef 완벽 정리 1# 변수 관리  */}
       {/* <Stu3And1 /> */}
       {/* <Stu3And2 /> */}
-      <Stu3And3 />
+      {/* <Stu3And3 /> */}
 
+      {/* 4.useRef 완벽 정리 2# DOM 요소 접근  */}
+      <Stu4And1 />
 
     </div>
   );
