@@ -15,6 +15,9 @@ import Stu7And2 from './views/Section7/Stu7And2';
 import Stu8And1 from './views/Section8/Stu8And1';
 import "../App.css"
 import Stu8And2 from './views/Section8/Stu8And2';
+import Stu9And1 from './views/Section9/Stu9And1';
+import Stu9And2 from './views/Section9/Stu9And2';
+import Stu9And3 from './views/Section9/Stu9And3';
 function App() {
   //const [ShowTimer, setShowTimer] = useState(false);
 
@@ -51,8 +54,12 @@ function App() {
 
       {/* 8. useReducer 확실히 정리해드려요  */}
       {/* <Stu8And1 /> */}
-      <Stu8And2 />
+      {/* <Stu8And2 /> */}
 
+      {/* 9.React.memo로 컴포넌트 최적화하기 (ft. useMemo, useCallback) */}
+      {/* <Stu9And1 /> */}
+      {/* <Stu9And2 /> */}
+      <Stu9And3 />
 
     </div>
   );
