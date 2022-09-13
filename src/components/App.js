@@ -18,6 +18,8 @@ import Stu8And2 from './views/Section8/Stu8And2';
 import Stu9And1 from './views/Section9/Stu9And1';
 import Stu9And2 from './views/Section9/Stu9And2';
 import Stu9And3 from './views/Section9/Stu9And3';
+import Stu10And1 from './views/Section10/Stu10And1';
+import Stu10And2 from './views/Section10/Stu10And2';
 function App() {
   //const [ShowTimer, setShowTimer] = useState(false);
 
@@ -59,7 +61,12 @@ function App() {
       {/* 9.React.memo로 컴포넌트 최적화하기 (ft. useMemo, useCallback) */}
       {/* <Stu9And1 /> */}
       {/* <Stu9And2 /> */}
-      <Stu9And3 />
+      {/* <Stu9And3 /> */}
+
+      {/* 10.Custom Hooks 커스텀 훅  */}
+      {/* <Stu10And1 /> */}
+      <Stu10And2 />
+
 
     </div>
   );
