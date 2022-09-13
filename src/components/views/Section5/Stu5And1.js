@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import Page from './Page';
-//import "../../../App.css"
+
 import "./Section5.css";
 import { ThemeContext } from './context/ThemeContext';
 import { UserContext } from './context/UserContext';

@@ -12,7 +12,9 @@ import Stu6And1 from './views/Section6/Stu6And1';
 import Stu6And2 from './views/Section6/Stu6And2';
 import Stu7And1 from './views/Section7/Stu7And1';
 import Stu7And2 from './views/Section7/Stu7And2';
-
+import Stu8And1 from './views/Section8/Stu8And1';
+import "../App.css"
+import Stu8And2 from './views/Section8/Stu8And2';
 function App() {
   //const [ShowTimer, setShowTimer] = useState(false);
 
@@ -44,9 +46,12 @@ function App() {
 
       {/* 7. useCallback 짱 쉬운 강의  */}
       {/* <Stu7And1 /> */}
-      <Stu7And2 />
+      {/* <Stu7And2 /> */}
 
 
+      {/* 8. useReducer 확실히 정리해드려요  */}
+      {/* <Stu8And1 /> */}
+      <Stu8And2 />
 
 
     </div>
