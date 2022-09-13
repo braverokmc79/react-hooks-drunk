@@ -29,4 +29,4 @@ function Stu10And2() {
     )
 }
 
-export default Stu10And2;``
+export default Stu10And2;
